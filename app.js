@@ -19,8 +19,8 @@ function getOnlyGoodMovies(){
 function main(){
     const goodMovies = getOnlyGoodMovies();
     const goodLinks = getGoodImdbLinks();
-    console.log(`Only movies with metascore of 80 or higher:\n${firstTenMovies}\n`);
-    console.log(`IMDb links of those good movies:\n${dramaMovies}\n`);
+    console.log(`Only movies with metascore of 80 or higher:\n${goodMovies}\n`);
+    console.log(`IMDb links of those good movies:\n${goodLinks}\n`);
 }
 
 main();
