@@ -1,5 +1,5 @@
 
-# Trabajo Práctico Nº2
+# Integrador B
 
 1. Hacer fork de este repositorio en su cuenta personal.
 2. Clonar el repositorio forkeado en su computadora.
