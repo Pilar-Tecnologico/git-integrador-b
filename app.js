@@ -7,6 +7,24 @@ const movies = require('./movies.json');
  */
 function getOnlyGoodMovies(){
     //complete with your code
+    let objMovies = movies.filter(movie => movie.metascore > 80);
+    let goodMovies = []
+    for (let i = 0; i < objMovies.length; i++){
+        let movie = new Object();
+        movie['metascore'] = objMovies[i].metascore;
+        movie['title'] = objMovies[i].title;
+        movie['year'] = objMovies[i].year;
+        movie['genre'] = objMovies[i].genre;
+        movie['director'] = objMovies[i].director;
+        movie['imdb_title_id'] = objMovies[i].imdb_title_id;
+        goodMovies.push(`\n   Title    : ${movie.title} 
+   Year     : ${movie.year} 
+   Genre    : ${movie.genre} 
+   Director : ${movie.director}
+   Metascore: ${movie.metascore}
+   Imdb id  : ${movie.imdb_title_id}\n`);
+    }
+    return goodMovies
 }
 
 /**
