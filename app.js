@@ -33,6 +33,13 @@ function getOnlyGoodMovies(){
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
+    let objMovies = movies.filter(movie => movie.metascore > 80);
+    let goodMovies = []
+    for (let i = 0; i < objMovies.length; i++){
+        goodMovies.push(`\n https://www.imdb.com/title/${objMovies[i].imdb_title_id}/
+        `)
+    }
+    return goodMovies
     //complete with your code
 }
 
