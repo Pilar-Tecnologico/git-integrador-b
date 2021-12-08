@@ -23,14 +23,13 @@ function getOnlyGoodMovies(){
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
+    
+     const imdb = movies.map(lin => "https://www.imdb.com/title/"+lin.imdb_title_id+"/"); 
+  //  link =  imdb.forEach((elm) =>{
+     //    console.log('https://www.imdb.com/title/'+elm+'/\n');
 
-   // const links = movies.map( link => link.imdb_title_id)
-    //console.log('https://www.imdb.com/title/'+links,'/\n');
-   
-   // return "https://www.imdb.com/title/"+links,"/\n";
-
-  
-
+  //   })
+   return imdb
 }
 
 
@@ -38,8 +37,9 @@ function main(){
     const goodMovies = getOnlyGoodMovies();
     const goodLinks = getGoodImdbLinks();
     console.log('Only movies with metascore of 80 or higher:');
-   console.log(goodMovies);
-   // console.log(goodLinks);
+    console.log(goodMovies);
+    console.log('IMDb links of those good movies:');
+    console.log(goodLinks);
     
     //console.log(`Only movies with metascore of 80 or higher:\n${(goodMovies)}\n`);
     //console.log(`IMDb links of those good movies:\n${goodLinks}\n`);
