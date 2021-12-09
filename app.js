@@ -1,7 +1,8 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * Get all movies with an metascore greater than 80
+ * @param {Number} metascore
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
