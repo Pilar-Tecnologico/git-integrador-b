@@ -29,7 +29,12 @@ function getOnlyGoodMovies(){
  * let goodLinks = getGoodImdbLinks();
  */
  function getGoodImdbLinks(){
-    //complete with your code
+     
+    const goodLinks = getOnlyGoodMovies().map( movie =>{
+        return `https://www.imdb.com/title/${movie.imdb_title_id}/`;
+    })
+
+    return goodLinks;
 }
 
 function main(){
