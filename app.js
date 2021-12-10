@@ -2,6 +2,7 @@ const movies = require('./movies.json');
 
 /**
  * Complete with a brief definition of what this function should do
+ * //this function should get from movies.json only movies with a high metascore//.
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
@@ -10,6 +11,7 @@ function getOnlyGoodMovies(){
 
 /**
  * Complete with a brief definition of what this function should do
+ * //this function should get from movies.json the IMDb links of those movies with high metascore//.
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
