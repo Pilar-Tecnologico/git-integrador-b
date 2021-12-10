@@ -1,16 +1,28 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * this function will return an array of good movies
+ * @param {Array} movies - a array of movie
+ * 
  * @returns {Array} of movie objects
+ * 
+ * @example
+ * 
+ * let goodMovies = getOnlyGoodMovies();
  */
 function getOnlyGoodMovies(){
     //complete with your code
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * this function will return an array of strings
+ * @param {Array} movies - a array of movie
+ * 
  * @returns {Array} of strings
+ * 
+ * @example
+ * 
+ * let goodLinks = getGoodImdbLinks();
  */
  function getGoodImdbLinks(){
     //complete with your code
