@@ -17,7 +17,11 @@ function getOnlyGoodMovies(){
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
-    //complete with your code
+    const moviesGoodScore = getOnlyGoodMovies().map(moviesGoodScore =>{
+        return `https://www.imdb.com/title/${moviesGoodScore.imdb_title_id}/ \n`;
+    });
+    return moviesGoodScore;
+
 }
 
 function main(){
