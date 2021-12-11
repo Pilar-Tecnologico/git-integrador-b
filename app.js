@@ -10,6 +10,7 @@ function getOnlyGoodMovies(metascore) {
     //return movies.filter(movie => movie.metascore >= metascore);
     const peliculas = movies.filter(movie => movie.metascore >= metascore);
     console.log (peliculas);
+    
 }
 
 /**
