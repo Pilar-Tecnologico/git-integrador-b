@@ -1,11 +1,12 @@
 const movies = require('./movies.json');
 
 /**
- * tthe function brings an array with only the movies rated with metacore more than 80
+ * the function brings an array with only the movies rated with metacore more than 80
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
-    //complete with your code
+    const goodmovie = movies.filter(movie => movie.metascore>=80);
+    return goodmovie;
 }
 
 /**
@@ -13,7 +14,7 @@ function getOnlyGoodMovies(){
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
-    //complete with your code
+   
 }
 
 function main(){
