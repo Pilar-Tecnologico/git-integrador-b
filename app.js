@@ -1,7 +1,7 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * tthe function brings an array with only the movies rated with metacore more than 80
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
@@ -9,7 +9,7 @@ function getOnlyGoodMovies(){
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * the function shows the links of the movies searched in the previous method
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
