@@ -1,7 +1,7 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * this function brings an array with movies that score 80 or more 
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
@@ -9,7 +9,7 @@ function getOnlyGoodMovies(){
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * this function bring an array with links from movies of exercise one.
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
