@@ -14,7 +14,10 @@ function getOnlyGoodMovies(){
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
-   
+    const movie = getOnlyGoodMovies().map(movie =>{
+        return `https://www.imdb.com/title/${movie.imdb_title_id}/ \n`;
+    });
+    return movie;
 }
 
 function main(){
