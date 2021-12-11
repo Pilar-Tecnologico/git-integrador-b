@@ -2,15 +2,16 @@ const movies = require('./movies.json');
 
 /**
  * Get all movies with an metascore greater than 80
- * @param {Number} metascore
+ * @param {number} metascore
  * @returns {Array} of movie objects
+ * 
  */
-function getOnlyGoodMovies(){
-    //complete with your code
+function getOnlyGoodMovies(metascore) { 
+   
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * Get imdb_title_id from movies and create the movies links
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
