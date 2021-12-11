@@ -1,7 +1,7 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * The @returns tag documents the value that a function returns. In this case, it returns an array of movie objects.
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
@@ -9,7 +9,7 @@ function getOnlyGoodMovies(){
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * The @returns tag documents the value that a function returns. In this case, it returns an array of strings.
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
