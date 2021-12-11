@@ -7,7 +7,7 @@ const movies = require('./movies.json');
  * 
  */
 function getOnlyGoodMovies(metascore) { 
-   
+    return movies.filter(movie => movie.metascore >= metascore);
 }
 
 /**
@@ -19,7 +19,7 @@ function getOnlyGoodMovies(metascore) {
 }
 
 function main(){
-    const goodMovies = getOnlyGoodMovies();
+    const goodMovies = getOnlyGoodMovies(80);
     const goodLinks = getGoodImdbLinks();
     console.log(`Only movies with metascore of 80 or higher:\n${goodMovies}\n`);
     console.log(`IMDb links of those good movies:\n${goodLinks}\n`);
