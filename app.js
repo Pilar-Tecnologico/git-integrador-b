@@ -14,7 +14,11 @@ function getOnlyGoodMovies(){
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
-    //complete with your code
+    const links = movies.map(function(elemento){
+        return `https://www.imdb.com/title/${elemento.imdb_title_id}/`;
+    });
+
+    return links;
 }
 
 function main(){
