@@ -1,7 +1,7 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * This function returns only good movies from array movies
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
@@ -9,7 +9,7 @@ function getOnlyGoodMovies(){
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * This function returns an array containing the link for each movie
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
