@@ -1,19 +1,24 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * This function returns only good movies from array movies
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
-    //complete with your code
+    const goodMovies = movies.filter(movie => movie.metascore >= 80);
+    return JSON.stringify(goodMovies);
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * This function returns an array containing the link for each movie
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
-    //complete with your code
+    const links = movies.map(function(elemento){
+        return `https://www.imdb.com/title/${elemento.imdb_title_id}/`;
+    });
+
+    return links;
 }
 
 function main(){
