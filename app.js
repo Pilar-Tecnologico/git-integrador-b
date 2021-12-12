@@ -1,19 +1,25 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * Returns movies with a metascore equal to 80 or higher. 
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
-    //complete with your code
+    
+    const metascore=80; 
+    return movies.find(movie => movie.metascore >= metascore);
+
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * Returns a link to IMDb movie's web. 
  * @returns {Array} of strings
  */
  function getGoodImdbLinks(){
-    //complete with your code
+    const movie=getOnlyGoodMovies();
+
+    var salida= "https://www.imdb.com/title/,"+movie.imdb_title_id+"";
+    console.log(salida);
 }
 
 function main(){
