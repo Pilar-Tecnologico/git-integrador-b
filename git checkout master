@@ -1,0 +1,29 @@
+[33mcommit 54873c7053dcde976019aab0c5e7e2caec58f5ce[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31mIntegradorB/develop[m[33m)[m
+Author: Axel Cerkvenih <cerkvenihaxel@gmail.com>
+Date:   Sat Dec 11 23:11:20 2021 -0300
+
+    Ejercicio 1 y Ejercicio 2
+
+[33mcommit b16a2d343f1b2ba4550653ce3e6f049b072446f2[m
+Author: Axel Cerkvenih <cerkvenihaxel@gmail.com>
+Date:   Sat Dec 11 22:54:26 2021 -0300
+
+    doc: added jsdoc to functions
+
+[33mcommit 8da39a58dfc30182e0f94efafb743764a296cfb2[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31mIntegradorB/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Marcos J. Peña Pollastri <marcos.p.pollastri@gmail.com>
+Date:   Wed Dec 1 09:46:06 2021 -0300
+
+    hotfix
+
+[33mcommit 68b72f765d457e9110dda439ff8b580c8dc64d6c[m
+Author: Marcos J. Peña Pollastri <marcos.p.pollastri@gmail.com>
+Date:   Wed Dec 1 03:46:25 2021 -0300
+
+    Readme fix
+
+[33mcommit 0c59734b97b04831310f063e81cadf3662e13006[m
+Author: Marcos J. Peña Pollastri <marcos.penapollastri@naranja.com>
+Date:   Wed Dec 1 03:44:16 2021 -0300
+
+    first commit
