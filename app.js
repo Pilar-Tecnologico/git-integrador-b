@@ -5,7 +5,8 @@ const movies = require('./movies.json');
  * @returns {Array} of movie objects
  */
 function getOnlyGoodMovies(){
-    //complete with your code
+    const goodMovies = movies.filter(movie => movie.metascore >= 80);
+    return JSON.stringify(goodMovies);
 }
 
 /**
