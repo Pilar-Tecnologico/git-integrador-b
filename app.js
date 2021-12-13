@@ -8,6 +8,9 @@ const movies = require('./movies.json');
  */
 function getOnlyGoodMovies(){
     //complete with your code
+    let GoodMovies = movies.filter(movies => movies.metascore >= 80);
+    let OnlyGoodMovies = GoodMovies.map(a => a.title);
+    return OnlyGoodMovies;
 }
 
 /**
